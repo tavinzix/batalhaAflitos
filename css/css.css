@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(66, 66, 66);
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 95px;
+    color: #04ff02;
+      
+}
+
+h3{
+    font-family: "Playwrite FR Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+.itensCenter{
+    animation: descer 5s;
+}
+
+@keyframes descer {
+    0% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(0px);
+        
+    }
+}
+
+.img {
+    border-radius: 25px;
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+
+}
+
+#patrocinador {
+    padding: 15px;
+    margin-top: 21px;
+}
+
+#login {
+    height: 65px;
+    width: 89px;
+    border-radius: 25px;
+    text-decoration: none;
+    background: border-box;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+
+#login:hover {
+    background-color: mediumspringgreen;
+    cursor: pointer;
+    color: black;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#menu{
+    display: ruby-text;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.imagem > p{
+    color: white;
+    font-size: 23px;
+    margin-top: -5px;
+}
+
+.voltar{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.imgEsquerda{
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+.imgDireita{
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+.esquerda{
+    text-align: left;
+    margin-left: 50px;
+    width: 1400px;
+    display: flex;
+}
+
+.direita{
+    text-align: right;
+    width: 1400px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 400px;
+}
+
+.esquerda> p{
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 115px;
+}
+
+.direita > p{
+    color: white;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 115px;
+}
+
+table{
+    margin: 0 0 2em 0;
+    width: 100%;   
+}
+
+b{
+    color: white;
+}
+
+#patrocinadores{
+    display: flex;
+}
+
+.patro{
+    margin-left: 50px ;
+    margin-bottom: 15px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-left: 33%;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #218838;
+}
