@@ -1,0 +1,146 @@
+body{
+	width: 100%;
+	background-color: 	rgb(179, 255, 0);
+}
+
+.menu{
+	margin-top: -350px;
+}
+
+#logog{
+	width: 100%;
+	height: 500px;
+	margin-top: 15px;
+	z-index: 1;
+}
+
+#checkoff{
+	display: block;
+	margin-top: 50px;
+	float: left;
+	margin-left: 30px;
+	background-color: #373737;
+}
+
+#check{
+	display: none;
+	margin-top: -25px;
+}
+
+#icone{
+	display: none;
+	cursor: pointer;
+	padding: 5px;
+	margin-top:-39px;
+	z-index: 1;
+	display: inline-block;
+}
+
+#icone1{
+	cursor: pointer;
+	margin: -69px 10px 10px 10px;
+	padding: 12px;
+	margin-top:-39px;
+	margin-left: 250px;
+	z-index: 1;
+	display: inline-block;
+}
+
+.barra{
+	background-color: #333;
+	height: 100%;
+	width: 300px;
+	top: 0px;
+	position: absolute;
+	transition: all .2s linear;
+	left: -300px;
+	cursor: pointer;
+	background-image:  url("../img/icone.jpg");
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top: 60px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+.link{
+	background-color: #494950;
+	padding: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12pt;
+	transition: all .2s linear;
+	color: #f4f4f9;
+	border-bottom: 2px solid #222;
+}
+
+.link:hover{
+	background-color: #f4f4f4;
+	color: #555;
+}
+
+#check:checked ~ .barra{
+	transform: translateX(300px);
+}
+
+#perfil{
+	width: 450px;
+	height: 450px;
+	margin-left: 150px;
+	margin-top: -10px;
+}
+
+#pperfil{
+	float: right;
+	margin-right: 10px;
+	height: 10px;
+}
+
+#nome{
+	margin-top: 400px; margin-left: -450px 
+}
+
+#nome1{
+	margin-left: -380px 
+}
+
+#pperfilresp{
+	display: inline;
+	float: right;
+	margin-top: 10px;
+	padding: 5px;		
+	margin-right: 50px;
+	margin-left: -520px;
+	text-align: justify;
+}
+
+#perfilrede{
+	float: right;
+	width: 150px;
+	height: 150px;
+	margin-left: 600px;
+	margin-right: 80px;
+	margin-top: -300px;
+}
+
+#perfilrede1{
+	float: right;
+	width: 150px;
+	height: 150px;
+	margin-left: 600px;
+	margin-right: 80px;
+	margin-top: -230px;
+}
+
+#perfilrede2{
+	float: right;
+	width: 150px;
+	height: 150px;
+	margin-left: 600px;
+	margin-right: 80px;
+	margin-top: -160px;
+}
