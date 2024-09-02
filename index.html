@@ -1,86 +1,112 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Batalha dos Aflitos</title>
-	<meta charset="utf-8">
+    <title>Batalha dos Aflitos</title>
+    <meta charset="utf-8">
     <meta name="description" content="Batalha dos Aflitos">
     <meta name="keywords" content="Gremio,Aflitos,Batalha">
     <meta name="author" content="Otávio Fagundes">
-	<link rel="stylesheet" href="css/css.css">
-	<script type="text/javascript" src="js/js.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <script type="text/javascript" src="js/js.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
 </head>
+
 <body>
-	<nav class="menu">
-		<div style="float: left; margin-left: 40px;">
-			<ul>
-				<li> <img src="img/logomenu.png" id="logomenu"></li>
-			</ul>
-		</div>
-		<ul>		
+    <nav class="menu">
+        <div style="float: left; margin-left: 40px;">
+            <ul>
+                <li> <img src="img/logomenu.png" id="logomenu"></li>
+            </ul>
+        </div>
+        <ul>
             <li><a href="curiosidades.html">Curiosidades</a></li>
             <li><a href="batalha.html">Batalha</a></li>
-			<li><a href="recomeço.html"> Recomeço</a>				
+            <li><a href="recomeço.html"> Recomeço</a>
             <li><a href="rebaixamento.html"> Rebaixamento</a></li>
             <li><a href="index.html" id="ativo"> Inicio</a></li>
-		</ul>
-	</nav>
-    
-    <div id="pag1">
-        <h1> teste</h1>
+        </ul>
+    </nav>
+
+    <div id="pagina">
+        <div id="pag1">
+            <div id="fundopag1">
+                <h1 id="textpag1">A eterna <br> Batalha dos Aflitos</h1>
+
+
+                <a href="#pag2"><button class="botao"><i class="fas fa-arrow-down"></i></button></a>
+            </div>
+        </div>
+
+        <div>
+            
+        </div>
     </div>
 
 
-	<img id="logog" src="img/logogg.jpeg">
 
-	<div>
-		<img id="perfil" src="img/perfil.jpeg">
-	</div>
 
-	<div id="pperfil">	
-		<h2 id="nome">Elizandra Buzzo</h2>
+    <img id="logog" src="img/logogg.jpeg">
 
-		<h4 id="nome1">¿Quiénes somos?</h4></br>
+    <div>
+        <img id="perfil" src="img/perfil.jpeg">
+    </div>
 
-		<p id="pperfilresp" style=" font-family: Arial, Helvetica, sans-serif;">Somos un estudio que se dedica a la Arquitectura de interiores. Estamos en el mercado hace más de 4 años.Entendemos que el proceso de creación del proyecto de interiores se da a partir de la necesidad real del que habita. Esta puede ser desde optimizar los espacios, hacerlos más funcionales, dinámicos hasta buscar una estética harmónica que genere a su usuario una agradable experiencia o que se adecue a su estilo de vida. </p>
-	
-	</div>
-		<div id="perfilrede">
-			<a href="https://www.instagram.com/elizandra_buzzo/"><img src="img/rede1.png"></a>
-		</div>
+    <div id="pperfil">
+        <h2 id="nome">Elizandra Buzzo</h2>
 
-	<div id="perfilrede1">
-		<a href="index.html"><img src="img/rede2.png"></a>
-	</div>
+        <h4 id="nome1">¿Quiénes somos?</h4></br>
 
-	<div id="perfilrede2">
-		<a href="index.html"><img src="img/rede3.png"></a>
-	</div>
+        <p id="pperfilresp" style=" font-family: Arial, Helvetica, sans-serif;">Somos un estudio que se dedica a la
+            Arquitectura de interiores. Estamos en el mercado hace más de 4 años.Entendemos que el proceso de creación
+            del proyecto de interiores se da a partir de la necesidad real del que habita. Esta puede ser desde
+            optimizar los espacios, hacerlos más funcionales, dinámicos hasta buscar una estética harmónica que genere a
+            su usuario una agradable experiencia o que se adecue a su estilo de vida. </p>
 
-	<footer id="formulario">
-		<h2 style="text-align: center; font-family: Georgia, serif; font-size: 35px">Fale conosco</h2><br><br>
-	
-			<form method="POST" onSubmit="return(verifica())" action="enviarEmail.php" name="frmEnvia">					 		
-				<div id="nome">
-	       			<label for="caixa">Nome:</label>
-	       			<input type="text" class="caixa" style="color: white; font-family: MV Boli" name="nome"/>
-				   	<label for="caixa">E-mail:</label>
-	             	<input name="email" type="email" class="caixae" style="color: white; font-family: MV Boli" onblur="checarEmail()"/>
-				</div>
-					<br><br>
-				<div id="nome">
-			       	<label for="msg">Mensagem:</label><br>
-	       			<textarea id="msg" style="color: white; font-family: MV Boli;" name="mensagem"></textarea>
-	   			</div>
-	   				<br><br>
-		   	
-	   			<div style="text-align: center;">
-	       			<button type="submit" class="bottom">Enviar sua mensagem</button>
-	    		</div>
-			</form>
-					<br>
-			<div class="contato" style="margin-bottom: -50px">
-				<p class="copyrodape"> &copy; Design: Otávio Faria Fagundes.</p>
-			</div>
-	</footer>
+    </div>
+    <div id="perfilrede">
+        <a href="https://www.instagram.com/elizandra_buzzo/"><img src="img/rede1.png"></a>
+    </div>
+
+    <div id="perfilrede1">
+        <a href="index.html"><img src="img/rede2.png"></a>
+    </div>
+
+    <div id="perfilrede2">
+        <a href="index.html"><img src="img/rede3.png"></a>
+    </div>
+
+    <footer id="formulario">
+        <h2 style="text-align: center; font-family: Georgia, serif; font-size: 35px">Fale conosco</h2><br><br>
+
+        <form method="POST" onSubmit="return(verifica())" action="enviarEmail.php" name="frmEnvia">
+            <div id="nome">
+                <label for="caixa">Nome:</label>
+                <input type="text" class="caixa" style="color: white; font-family: MV Boli" name="nome" />
+                <label for="caixa">E-mail:</label>
+                <input name="email" type="email" class="caixae" style="color: white; font-family: MV Boli"
+                    onblur="checarEmail()" />
+            </div>
+            <br><br>
+            <div id="nome">
+                <label for="msg">Mensagem:</label><br>
+                <textarea id="msg" style="color: white; font-family: MV Boli;" name="mensagem"></textarea>
+            </div>
+            <br><br>
+
+            <div style="text-align: center;">
+                <button type="submit" class="bottom">Enviar sua mensagem</button>
+            </div>
+        </form>
+        <br>
+        <div class="contato" style="margin-bottom: -50px" id="pag2">
+            <p class="copyrodape"> &copy; Design: Otávio Faria Fagundes.</p>
+        </div>
+    </footer>
 </body>
+
 </html>

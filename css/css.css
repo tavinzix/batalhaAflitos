@@ -64,6 +64,9 @@ nav a {
 	color: blue;
 }
 
+#pagina{
+	position: relative;
+}
 
 #pag1{
 	background-image: url(../img/fe.png);
@@ -75,8 +78,37 @@ nav a {
 	background-size: cover;
 }
 
-#pag1 h1{
-	background-color: red;
+#textpag1{
+	font-family: "Lobster", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 7em;
+	line-height: 1.1;
+	margin-bottom: .25em;
+	color: rgba(255, 255, 255, 0.75);
+	text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+	text-transform: none;
+	text-align: center;
+	padding-top: 15%;
+}
+
+#fundopag1{
+	background-color: #00000052;
+		width: 100%;
+		margin-top: 25px;
+		height: 100%;
+}
+
+.botao{
+	background-color: rgba(255, 255, 255, 0.15);
+	color: rgba(255, 255, 255, 0.75);
+	height: 80px;
+	width: 80px;
+	border-radius: 200px;
+	border: 0;
+	font-size: 2.5em;
+	margin-left: 50%;
+	margin-top: 25px;
 }
 
 
@@ -89,9 +121,7 @@ nav a {
 
 
 
-
-
-
+/*
 #logodomenu{
 	width: 100px;
 	height:100px;
