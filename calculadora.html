@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>O Recomeço</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Batalha dos Aflitos">
+	<meta name="keywords" content="Gremio,Aflitos,Batalha">
+	<meta name="author" content="Otávio Fagundes">
+	<link rel="stylesheet" href="css/css.css">
+	<script type="text/javascript" src="js/js.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+
+<body>
+	<nav class="menu">
+		<div style="float: left; margin-left: 40px;">
+			<ul>
+				<li> <img src="img/logomenu.png" id="logomenu"></li>
+			</ul>
+		</div>
+		<ul>
+			<li><a href="calculadora.html" id="ativo">Calculadora</a></li>
+			<li><a href="curiosidades.html">Curiosidades</a></li>
+			<li><a href="batalha.html">Batalha</a></li>
+			<li><a href="recomeco.html"> Recomeço</a>
+			<li><a href="rebaixamento.html"> Rebaixamento</a></li>
+			<li><a href="index.html"> Inicio</a></li>
+		</ul>
+	</nav>
+
+	<div class="externo" id="calculadora">
+		<div class="interno" id="calculadorai">
+			<div class="quadro">
+					<input type="number" id="valor1" placeholder="Valor 1">
+					<input type="number" id="valor2" placeholder="Valor 2">
+					<div class="botoes">
+						<button onclick="calcular('soma')">+</button>
+						<button onclick="calcular('subtracao')">-</button>
+						<button onclick="calcular('multiplicacao')">*</button>
+						<button onclick="calcular('divisao')">/</button>
+					</div>
+				<a href="index.html"><button class="botaoDir"><i class="fas fa-arrow-right"></i></button></a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
