@@ -42,31 +42,31 @@ function checarMensagem(){
   }
 }
 
-function sendPhp(){
-  alert( document.forms[0].nome.value);
-    var data = {
-      nome:  document.forms[0].nome.value,
-    	email: document.forms[0].email.value,
-    	mensagem:  document.forms[0].mensagem.value
-    };
-
-  $.post('enviarEmail.php', data);
-}
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    const check = document.getElementById('check');
-    const icone = document.getElementById('icone');
-    const icone1 = document.getElementById('icone1');
-
-    // Toggle menu visibility
-    icone.addEventListener('click', () => {
-        check.checked = !check.checked;
-    });
-
-    icone1.addEventListener('click', () => {
-        check.checked = !check.checked;
-    });
-});
-
-
+function calcular(operacao) {
+  const valor1 = parseFloat(document.getElementById('valor1').value);
+  const valor2 = parseFloat(document.getElementById('valor2').value);
+  
+  let resultado;
+  
+  switch(operacao) {
+      case 'soma':
+          resultado = valor1 + valor2;
+          break;
+      case 'subtracao':
+          resultado = valor1 - valor2;
+          break;
+      case 'multiplicacao':
+          resultado = valor1 * valor2;
+          break;
+      case 'divisao':
+          if (valor2 == 0) {
+              resultado = 'Não é possível dividir por zero';
+          } else {
+              resultado = valor1 / valor2;
+          }
+          break;
+      default:
+          resultado = 'Operação inválida';
+  }
+  alert(`Resultado: ${resultado}`);
+};
