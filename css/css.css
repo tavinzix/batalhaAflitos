@@ -152,13 +152,6 @@ nav a {
 	margin-bottom: 25px;
 }
 
-
-
-
-
-
-
-
 .botao{
 	background-color: rgba(255, 255, 255, 0.15);
 	color: rgba(255, 255, 255, 0.75);
@@ -210,65 +203,41 @@ nav a {
 	font-weight: 600;
 }
 
-
-
-
-
-
-
-
-
-#rebaixamento {
-	background-image: url(../img/pg3.png);
+.externo {
+	background-image: url(../img/pic01.jpg);
 	margin-top: -25px;
 	width: 100%;
-	height: 100vh;
+	height: 150vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#rebaixamentointerno {
+.interno {
 	background-color: #00000052;
 	width: 100%;
 	margin-top: 25px;
-	height: 87.2vh;
+	height: 132.9vh;
 	padding-top: 8%;
 }
 
-
-
-
-
-
-
-
-
-
-
-#recomeco {
-	background-image: url(../img/pg3.png);
+#batalha{
 	margin-top: -25px;
+	background-color: #00000052;
 	width: 100%;
-	height: 100vh;
+	height: 310vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#recomecointerno {
+#batalhai {
 	background-color: #00000052;
 	width: 100%;
 	margin-top: 25px;
-	height: 87.2vh;
+	height: 292.8vh;
 	padding-top: 8%;
 }
-
-
-
-
-
-
 
 #formulario {
 	color: rgb(235, 235, 235);
@@ -362,30 +331,89 @@ nav a {
 	text-align: center;
 }
 
+#calculadora{
+	height: 40em;
+}
+
+#calculadorai{
+	height: 33.8em;
+}
+
+input {
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.botoes button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    background-color: #0056b3;
+}
 
 
 /* Responsivo */
-@media (max-width: 768px) {
-
-
-
-}
+@media (max-width: 768px) {}
 
 @media (max-width: 1500px) {
 	.quadro{
-		background: rgb(255, 0, 0);
-		color: white;
-		text-align: center;
-		padding: 3em;
-		margin-left: 450px;
-		margin-right: 450px;
+		margin-left: 250px;
+		margin-right: 250px;
+	}
+
+	#batalhaq{
+		margin-left: 150px;
+		margin-right: 150px;
 	}
 
 	.fundopags {
-		background-color: #00ff62;
+		margin-top: 20px;
+		height: 34.2vh;
+		padding-top: 5em;
+		padding-bottom: 20em;
+	}
+
+	.botao{
+		margin-top: 15px;
+	}
+
+	#batalha{
+		margin-top: -25px;
+		background-color: #00000052;
+		width: 100%;
+		height: 310vh;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	#batalhai {
+		background-color: #00000052;
 		width: 100%;
 		margin-top: 25px;
-		height: 74.2vh;
-		padding-top: 15em;
+		height: 292.8vh;
+		padding-top: 8%;
+	}
+	
+	#curiosidadei {
+		height: 132.8vh;
+	}
+
+	#curiosidadeq{
+		text-align: justify;
+		height: 44em;
 	}
 }
